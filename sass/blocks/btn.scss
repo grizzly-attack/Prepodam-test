@@ -1,0 +1,62 @@
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 2px solid $orange;
+  padding: 0;
+  margin: 0;
+  padding: 11px 34px;
+  width: 100%;
+  max-width: 250px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 500;
+  color: $orange;
+  text-align: center;
+
+  &:hover {
+    background-color: $orange;
+  }
+
+  @media (max-width: $tablet-width) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  &--orange {
+    padding: 9px 34px;
+    background-color: $orange;
+    color: #ffffff;
+
+    &:hover {
+      background-color: transparent;
+    }
+  }
+
+  &--round {
+    border-radius: 30px;
+    padding: 15px 30px;
+
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 600;
+    text-transform: none;
+
+    @media (max-width: $tablet-width) {
+      padding: 11px 30px;
+    }
+
+    &:hover {
+      color: #ffffff;
+    }
+
+    @media (max-width: $tablet-width) {
+      font-size: 18px;
+    }
+  }
+
+}
+
